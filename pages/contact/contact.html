@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Clean Blog</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="autohide navbar navbar-expand-md px-5 py-3 fw-bold" id="navbar">
+        <div class="container">
+            <a href="../../index.html" class="navbar-brand">Clean Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                manu<span>
+                    <i class="bi bi-list"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../../index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../about/about.html" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../posts/posts.html" class="nav-link">POSTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#header" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Head -->
+    <section class="text-light text-center bg-dark" id="header">
+        <div class="container" id="title">
+            <div class="align-items-center">
+                <h1>Contact</h1>
+                <span class="lead">Have questions? I have answers.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- form -->
+    <section class="text-dark bg-light pt-5">
+        <div class="container">
+            <form class="row" id="needs-validation">
+                <div class="col col-lg-7 col-md-10 mx-auto">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="nameInput" placeholder="John Doe" required>
+                        <label for="nameInput" class="form-label">Name</label>
+                        <div class="invalid-feedback">
+                            please enter your name!
+                        </div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required>
+                        <label for="emailInput">Email</label>
+                        <div class="invalid-feedback">
+                            please enter a valid Email!
+                        </div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="phoneInput" placeholder="123-456-7890" required>
+                        <label for="phoneInput">Phone</label>
+                        <div class="invalid-feedback">
+                            please enter your Phone Number!
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
+                        <div class="invalid-feedback">
+                            please enter a message!
+                        </div>
+                    </div>
+                    <div class="mb-3" id="submit-btn">
+                        <button class="btn fw-bold text-uppercase" type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-light pt-5 pb-3">
+        <div class="row">
+            <div class="col col-lg-7 col-md-10 mx-auto">
+                <ul class="d-flex justify-content-center list-unstyled" id="connection-links">
+                    <li class="connection-link mx-3 rounded-circle">
+                        <a href="mailto: abc@example.com"><i class="bi bi-envelope"></i></i></a>
+                    </li>
+                    <li class="connection-link mx-3">
+                        <a href="https://twitter.com"><i class="bi bi-twitter"></i></i></a>
+                    </li>
+                    <li class="connection-link mx-3">
+                        <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></i></a>
+                    </li>
+                    <li class="connection-link mx-3">
+                        <a href="https://github.com/"><i class="bi bi-github"></i></i></a>
+                    </li>
+                </ul>
+                <p class="text-muted copyright text-center mt-3">
+                    Copyright © Start Bootstrap 2021
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous">
+    </script>
+    <script src="code.js"></script>
+    <script src="../../code.js"></script>
+</body>
+</html>

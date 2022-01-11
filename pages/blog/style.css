@@ -1,0 +1,15 @@
+/* navbar */
+#header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("06.jpg") center/cover no-repeat;
+}
+
+#title h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+#title h2 {
+    font-size: 2rem;
+}
+#title span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
